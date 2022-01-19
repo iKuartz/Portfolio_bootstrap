@@ -3,3 +3,21 @@
 * {
     font-family: Poppins, sans-serif;
 }
+
+.developer {
+    color: #091e42;
+    font-weight: 700;
+}
+
+.developer-message {
+    color: #344563;
+}
+
+.icons {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.connect {
+    text-decoration: none;
+}
