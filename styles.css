@@ -1,23 +1,61 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,400&display=swap");
 
 * {
-    font-family: Poppins, sans-serif;
+  font-family: Poppins, sans-serif;
+}
+
+.my-logo {
+  color: #6070ff;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.nav-sections {
+  color: #344563;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
 }
 
 .developer {
-    color: #091e42;
-    font-weight: 700;
+  color: #091e42;
+  font-weight: 700;
 }
 
 .developer-message {
-    color: #344563;
+  color: #344563;
+  font-size: 20px;
+  line-height: 28px;
 }
 
 .icons {
-    list-style-type: none;
-    padding-left: 0px;
+  list-style-type: none;
+  padding-left: 0px;
 }
 
 .connect {
-    text-decoration: none;
+  text-decoration: none;
+}
+
+.company {
+  color: #344563;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.badges-bg {
+  color: #6070ff;
+  background-color: #ebebff;
+}
+
+.project-description {
+  color: #344563;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.work-data {
+  color: #6b778c;
+  font-size: 18px;
+  line-height: 24px;
 }

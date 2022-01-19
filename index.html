@@ -11,18 +11,17 @@
 <body>
       <header>
         <nav class="navbar mb-5 p-5 pt-1 container-fluid">
-            
-                <div class="navbar-brand">My Logo</div>
+                <div class="navbar-brand my-logo">My Logo</div>
                 <ul class="d-flex justify-content-between align-items-center" style="list-style-type: none;">
-                    <a href="#" class="nav-link"> <li>Portfolio</li></a>
-                    <a href="#" class="nav-link"> <li>About</li></a>
-                    <a href="#" class="nav-link"> <li>Contact</li></a>
+                    <a href="#works" class="nav-link nav-sections"> <li>Portfolio</li></a>
+                    <a href="#about" class="nav-link nav-sections"> <li>About</li></a>
+                    <a href="#contact" class="nav-link nav-sections"> <li>Contact</li></a>
                 </ul>
              
         </nav>
     </header>
 
-    <section class="container">
+    <section id="intro" class="container">
         <div class="row">
            <div class="col">
             <h1 class="mb-4 developer">I'm Alexandra</br>Glad to see you!</h1>
@@ -30,65 +29,72 @@
             experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
             
             <a href="#" class="connect">Let's Connect</a>
-            <ul class="d-flex icons ml-0 pl-0" >
+            <ul class="d-flex align-items-center icons ml-0 pl-0" >
                 <li class="me-2">
-                    Twitter
+                    <a href="#"><img src="./images/twitter.png"></a>
                 </li>
                 <li class="me-2">
-                    Linkedin
+                    <a href="#"><img src="./images/linkedin.png"></a>
                 </li>
                 <li class="me-2">
-                    Medium
+                    <a href="#"><img src="./images/medium.png"></a>
                 </li>
                 <li class="me-2">
-                    Github
+                    <a href="#"><img src="./images/github.png"></a>
                 </li>
                 <li class="me-2">
-                    Angellist
+                    <a href="#"><img src="./images/angellist.png"></a>
                 </li>
             </ul>
            </div>
         </div>
        
     </section>
-    <section>
-        <div>
-            <div></div>
-            <div>Tonic</div>
+    <section class="container" id="works">
+        <div class="card my-5">
+            <div class="row">
+            <div class="col"><img src="./images/work1.png"></div>
+            <div class="col"><h2>Tonic</h2>
+                <div><span class="company">CANOPY</span><img class="mx-1" src="./images/Counter.png"><span class="work-data">Back End Dev</span><img class="mx-1" src="./images/Counter.png"><span class="work-data">2015</span></div>
+                <p class="project-description">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+                <div><span class="badge badges-bg me-1">html</span><span class="badge badges-bg me-1">css</span><span class="badge badges-bg me-1">javascript</span></div>
+                <div><button>See Project</button></div>
+            </div>
+            </div>
         </div>
-        <div>
+        <div class="card my-5">
             <div>Multi-Post Stories</div>
             <div></div>
         </div>
-        <div>
+        <div class="card my-5">
             <div></div>
             <div>Facebook 360</div>
         </div>
-        <div>
+        <div class="card my-5">
             <div>Uber Navigation</div>
             <div></div>
         </div>
     </section>
-    <section>
+    <section id="about">
         <h2>About</br>Myself</h2>
         <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and
         experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
         <a href="#">Let's Connect</a>
-        <ul>
-            <li>
-                Github
+        <ul class="d-flex align-items-center icons ml-0 pl-0">
+            <li class="me-2">
+                <a href="#"><img src="./images/github.png"></a>
             </li>
-            <li>
-                Linkedin
+            <li class="me-2">
+                <a href="#"><img src="./images/linkedin.png"></a>
             </li>
-            <li>
-                Angellist
+            <li class="me-2">
+                <a href="#"><img src="./images/angellist.png"></a>
             </li>
-            <li>
-                Twitter
+            <li class="me-2">
+                <a href="#"><img src="./images/twitter.png"></a>
             </li>
-            <li>
-                Medium
+            <li class="me-2">
+                <a href="#"><img src="./images/medium.png"></a>
             </li>
         </ul>
         <button>Get My Resume</button>
@@ -106,7 +112,7 @@
             </ul></li>
         </ul>
     </section>
-    <section>
+    <section id="contact">
         <h2>Contact me</h2>
         <p>If you have an application you are interested in developing, a feature that you need built or a project that needs
         coding. I’d love to help with it</p>
