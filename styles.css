@@ -59,3 +59,22 @@
   font-size: 18px;
   line-height: 24px;
 }
+
+.about-title {
+  color: #091e42;
+  font-weight: 700;
+}
+
+.about-description {
+  font-weight: 400;
+  font-size: 16px;
+  color: #344563;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+.about-card {
+  margin-top: 200px;
+}
