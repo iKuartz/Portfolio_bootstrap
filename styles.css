@@ -78,3 +78,21 @@
 .about-card {
   margin-top: 200px;
 }
+
+.no-style-type {
+  list-style-type: none;
+}
+
+.language {
+  font-size: 20px;
+  color: #344563;;
+}
+
+.language-card {
+  width: 122px;
+  height: 120px;
+  background: #f7f7f9;
+  border-radius: 8px;
+}
+
+
