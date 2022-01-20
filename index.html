@@ -21,9 +21,8 @@
         </nav>
     </header>
 
-    <section id="intro" class="container">
-        <div class="row">
-           <div class="col">
+    <section class="section1">
+        <div class="container">
             <h1 class="mb-4 developer">I'm Alexandra</br>Glad to see you!</h1>
             <p class="developer-message">I’m a software developer! I can help you build a product , feature or website Look through some of my work and
             experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
@@ -46,11 +45,11 @@
                     <a href="#"><img src="./images/angellist.png"></a>
                 </li>
             </ul>
-           </div>
+           
         </div>
-       
     </section>
-    <section class="container" id="works">
+
+    <section class="container work-parent" id="works">
         <!--card 1 starts here-->
          <div class="card my-5">
             <div class="row">
@@ -239,23 +238,30 @@
     </section>
 
 
-    <section id="contact">
-        <h2>Contact me</h2>
-        <p>If you have an application you are interested in developing, a feature that you need built or a project that needs
-        coding. I’d love to help with it</p>
-        <form action="https://formspree.io/f/mqknezaw" method="POST">
-            <label>
-                <input required maxlength="30" placeholder="Your Name" type="text" />
-            </label>
-            <label>
-                <input placeholder="youremail@here.com" required type="email" name="_replyto" />
-            </label>
-            <div>
-                <label>
-                    <textarea class="big-input" required placeholder="Write your message here" maxlength="500"
-                        name="message"></textarea>
-                </label>
-            </div>
+    <section class="container">
+
+        <div class="text-center contact-parent">
+           <h2>Contact me</h2>
+           <p class="contact-paragraph">
+               If you have an application you are interested in developing, a feature that you need built or a project that needs
+               coding. I’d love to help with it
+           </p>
+        </div>
+        
+        <form action="https://formspree.io/f/mqknezaw" method="POST" class="form">
+                <label class="form-label" for="name"></label>
+                <input class="form-control" name="name" required maxlength="30" placeholder="Your Name" type="text" />
+            
+                 <label for="email"  class="form-label"></label>
+                <input class="form-control" name="email" placeholder="youremail@here.com" required type="email" />
+             
+                <label for="message" class="form-label"></label>
+                <textarea class="form-control" required placeholder="Write your message here" maxlength="500" name="message"> </textarea>
+                
+                <div class="d-flex justify-content-center align-items-center mt-5 mb-5">
+                    <button type="submit" class="btn btn-outline-primary mt-4">Get in touch</button>
+                </div>
+                
     </section>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>

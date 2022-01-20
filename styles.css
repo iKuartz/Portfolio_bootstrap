@@ -4,6 +4,7 @@
   font-family: Poppins, sans-serif;
 }
 
+
 .my-logo {
   color: #6070ff;
   font-size: 18px;
@@ -17,6 +18,13 @@
   line-height: 20px;
 }
 
+.section1 {
+  min-height: 70vh;
+  background: url("./images/header-shapes-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .developer {
   color: #091e42;
   font-weight: 700;
@@ -26,6 +34,10 @@
   color: #344563;
   font-size: 20px;
   line-height: 28px;
+}
+
+.work-parent {
+  margin-top: 200px;
 }
 
 .icons {
@@ -95,4 +107,16 @@
   border-radius: 8px;
 }
 
+.contact-parent {
+  margin-top: 300px;
+}
 
+.contact-paragraph {
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.form {
+  margin-left: 300px;
+  margin-right: 300px;
+}
